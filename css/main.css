@@ -139,6 +139,8 @@ body {
 #visible{
     overflow: hidden;
     position: relative;
+    width: 1010px !important;
+    height: 350px !important;
 }
 #visible ul{
     position: absolute;
