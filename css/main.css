@@ -148,6 +148,7 @@ body {
 }
 #totalContainer{
     margin: 0 auto;
+    width: 1010px !important;
     background: #000;
 }
 .mianji{
