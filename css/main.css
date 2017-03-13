@@ -133,6 +133,7 @@ body {
 }
 #visible ul li{
     float: left;
+    margin-right: 10px;
 }
 #visible ul li img{
 	width: 500px;
@@ -152,6 +153,7 @@ body {
     margin: 0 auto;
     width: 1010px !important;
     background: #000;
+    padding: 20px;
 }
 .mianji{
 	width: 1050px;
@@ -181,4 +183,19 @@ body {
 	text-align: center;
 	font-size: 16px;
 	color: #fff;
+}
+#totalContainer .button{
+	position: absolute;
+	width: 45px;
+	height: 55px;
+	top: 147px;
+	cursor: pointer;
+}
+#totalContainer .button.prev{
+	background: url(../images/prev.png) no-repeat;
+	left: 10px;
+}
+#totalContainer .button.next{
+	background: url(../images/next.png) no-repeat;
+	left: 955px;
 }
