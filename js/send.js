@@ -31,8 +31,8 @@ $(function(){
         ctx.fillStyle = "#fff";
         ctx.fillText(getter,30,60);
         ctx.fillText(author,582,425);
-        ctx.font="20px Microsoft Yahei";
-        ctx.fillText(reason,448,140);
+        ctx.font="30px Microsoft Yahei";
+        ctx.fillText(reason,448,150);
         var image = new Image();
         image.src = c.toDataURL("image/png");
         var tips ='<p class="tips">温馨提示：手机屏幕长按可保存图片哦~</p>'
