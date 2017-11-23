@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="峨眉山辣木茶">
+<meta name="description" content="峨眉山辣木茶">	
+<title>天涯感恩节海报</title>
+<script type="text/javascript" src="http://static.tianyaui.com/global/ty2.0/TY_m_2.0.js"></script>
+<link href="http://static.tianyaui.com/global/ty/TY.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="http://cms.tianyaui.com/cms_fragments/res/12204/css/base.css">
+<link rel="stylesheet" type="text/css" href="css/send.css">
+<script>
+        var phoneWidth =  parseInt(window.screen.width);
+        var phoneScale = phoneWidth/750;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)){
+            var version = parseFloat(RegExp.$1);
+            if(version>2.3){
+                document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+            }else{
+                document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+            }
+        }else {
+            document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+</script>
+
+</head>
+<body>
+	<div class="content">
+		<input type="text" placeholder="请输入想赠送的人"  class="receiver" />
+		<input type="text" placeholder="请输入你的名字"  class="author" />
+		<a id="create"></a>
+	</div>
+	
+	<img id="bg" src="images/cover.jpg">
+	<canvas id="cover" width="750px" height="1100px"></canvas>
+
+<script type="text/javascript" src="js/send.js"></script>
+</body>
+</html>

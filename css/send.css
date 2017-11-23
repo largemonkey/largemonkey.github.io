@@ -1,0 +1,53 @@
+body{
+	width: 750px;
+	margin: 0 auto;
+}
+.content{
+	background: url(../images/bg1.jpg) no-repeat center 0;
+	height: 1100px;
+	position: relative;
+}
+.receiver{
+	position: absolute;
+    top: 193px;
+    width: 221px;
+    background: none;
+    border: none;
+    transform: rotate(-5deg);
+    left: 98px;
+    font-size: 25px;
+    outline: none;
+    color: #545454;
+}
+.author{
+	position: absolute;
+    top: 520px;
+    width: 190px;
+    background: none;
+    border: none;
+    transform: rotate(-6deg);
+    left: 398px;
+    font-size: 25px;
+    outline: none;
+    color: #545454;
+}
+#create{
+	position: absolute;
+	width: 293px;
+	height: 90px;
+	bottom: 305px;
+	left: 229px;
+	cursor: pointer;
+}
+#cover,#bg{
+	display: none;
+}
+.tips{
+	text-align: center;
+	font-size: 25px;
+	color: #666;
+	line-height: 50px;
+}
+.dhtmlx_popup_text{
+	font-size: 48px !important;
+}
