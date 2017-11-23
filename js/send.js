@@ -14,19 +14,25 @@ $(function(){
     $("#create").click(function(){
         var getter = $.trim($(".receiver").val());
         var author = $.trim($(".author").val());
+        var reason = $.trim($(".reason").val());
         if (getter == '') {
-            alert("请输入你要送的人")
+            alert("请输入对她的称呼");
             return;
         }
         if (author == '') {
-            alert("请输入你的名字")
+            alert("请输入你的名字");
             return;
         }
-        ctx.rotate( (Math.PI / 180) * -6); // 旋转30弧度 
-        ctx.font="25px Microsoft Yahei";
-        ctx.fillS$le = "#545454";
-        ctx.fillText(getter,72,238);
-        ctx.fillText(author,338,595);
+        if (reason == '') {
+            alert("请输入理由");
+            return;
+        }
+        ctx.font="23px Microsoft Yahei";
+        ctx.fillStyle = "#fff";
+        ctx.fillText(getter,30,60);
+        ctx.fillText(author,582,425);
+        ctx.font="20px Microsoft Yahei";
+        ctx.fillText(reason,448,140);
         var image = new Image();
         image.src = c.toDataURL("image/png");
         var tips ='<p class="tips">温馨提示：手机屏幕长按可保存图片哦~</p>'

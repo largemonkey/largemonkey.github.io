@@ -3,41 +3,57 @@ body{
 	margin: 0 auto;
 }
 .content{
-	background: url(../images/bg1.jpg) no-repeat center 0;
+	background: url(../images/asuna.jpg) no-repeat center 0;
 	height: 1100px;
 	position: relative;
 }
 .receiver{
 	position: absolute;
-    top: 193px;
+    top: 30px;
     width: 221px;
     background: none;
     border: none;
-    transform: rotate(-5deg);
-    left: 98px;
-    font-size: 25px;
+    left: 32px;
+    font-size: 23px;
     outline: none;
-    color: #545454;
+    color: #fff;
 }
 .author{
 	position: absolute;
-    top: 520px;
-    width: 190px;
+    top: 398px;
+    width: 170px;
     background: none;
     border: none;
-    transform: rotate(-6deg);
-    left: 398px;
-    font-size: 25px;
+    font-size: 23px;
     outline: none;
-    color: #545454;
+    color: #fff;
+    right: 1px;
+}
+.reason{
+	resize: none;
+    background: none;
+    color: #fff;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 436px;
+    top: 119px;
+    border: none;
+    font-size: 20px;
 }
 #create{
 	position: absolute;
-	width: 293px;
-	height: 90px;
-	bottom: 305px;
-	left: 229px;
-	cursor: pointer;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background: #3ec3ff;
+    border-radius: 10px;
+    color: #ffff6a;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    top: 452px;
+    right: 20px;
 }
 #cover,#bg{
 	display: none;
